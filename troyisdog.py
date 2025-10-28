@@ -11,7 +11,7 @@ class Dog:
   print(f"happy birthday {self.name}, you are now {self.age} years old! tiguwang na kayka<3")
 
  def getInfo(self):
-  return f"Dog name: {self.name}  Age: {self.age}"
+  return f"Dog name: {self.name},  Age: {self.age}"
  
 troy = Dog("Troy", 21)
 troy.bark()
